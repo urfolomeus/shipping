@@ -32,4 +32,9 @@ function add(item) {
     storage.items.push(item)
     currentStorage += item.weight
   }
+  if(isDevelopment) {
+    const itemCount = storage.items.length
+    console.log(`${itemCount} items`)
+    console.log(`${currentStorage} kg total`)
+  }
 }
