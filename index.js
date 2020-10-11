@@ -1,15 +1,7 @@
 //@ts-check
 
-/**
- * @typedef {Object} StorageItem
- * @property {number} weight
- */
-
-/**
- * @typedef {Object} ShipStorage
- * @property {number} max
- * @property {StorageItem[]} items
- */
+/** @typedef { import('./types.d').StorageItem} StorageItem */
+/** @typedef { import('./types.d').ShipStorage} ShipStorage */
 
 /** @type ShipStorage */
 const storage = {
