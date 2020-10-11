@@ -1,4 +1,17 @@
 //@ts-check
+
+/**
+ * @typedef {Object} StorageItem
+ * @property {number} weight
+ */
+
+/**
+ * @typedef {Object} ShipStorage
+ * @property {number} max
+ * @property {StorageItem[]} items
+ */
+
+/** @type ShipStorage */
 const storage = {
   max: undefined,
   items: []
