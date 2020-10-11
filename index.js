@@ -26,8 +26,8 @@ function storageUsed() {
     return currentStorage
   }
   currentStorage = 0
-  for(let i = 0; i < storage.length(); i++) {
-    currentStorage += storage.items[i].weigth
+  for(let i = 0; i < storage.items.length; i++) {
+    currentStorage += storage.items[i].weight
   }
   return currentStorage
 }
