@@ -6,7 +6,7 @@ const storage = {
 
 Object.defineProperty(storage, 'max', { writable: false, value: 5000})
 
-let currentStorage = 'undefined'
+let currentStorage = undefined
 
 function storageUsed() {
   if(currentStorage) {
