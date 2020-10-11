@@ -32,6 +32,9 @@ function storageUsed() {
   return currentStorage
 }
 
+/**
+ * @param {StorageItem} item
+ */
 function add(item) {
   if(storage.max - item.weight >= storageUsed()) {
     storage.items.push(item)
