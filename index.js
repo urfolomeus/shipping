@@ -1,3 +1,4 @@
+//@ts-check
 const storage = {
   max: undefined,
   items: []
