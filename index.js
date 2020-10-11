@@ -1,7 +1,7 @@
 //@ts-check
 
-/** @typedef { import('./types.d').StorageItem} StorageItem */
-/** @typedef { import('./types.d').ShipStorage} ShipStorage */
+/** @typedef { import('./@types/types.d').StorageItem} StorageItem */
+/** @typedef { import('./@types/types.d').ShipStorage} ShipStorage */
 
 /** @type ShipStorage */
 const storage = {
