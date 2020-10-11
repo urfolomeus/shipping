@@ -20,8 +20,8 @@ function storageUsed() {
 }
 
 function add(item) {
-  if(storage.max - item.weight >= storageUsed) {
-    storage.items.add(item)
-    currentStorage += iten.weight
+  if(storage.max - item.weight >= storageUsed()) {
+    storage.items.push(item)
+    currentStorage += item.weight
   }
 }
