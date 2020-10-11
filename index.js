@@ -32,6 +32,10 @@ function add(item) {
     storage.items.push(item)
     currentStorage += item.weight
   }
+
+  // adding a little jquery for good measure
+  $('#numberOfItems').text(storage.items.length)
+
   if(isDevelopment) {
     const itemCount = storage.items.length
     console.log(`${itemCount} items`)
